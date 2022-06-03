@@ -1,0 +1,1 @@
+worker: sh target/bin/tgbot-rock-paper-scissors
