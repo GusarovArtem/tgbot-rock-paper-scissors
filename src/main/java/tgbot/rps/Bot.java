@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Bot {
-    private final TelegramBot bot = new TelegramBot(System.getenv("5549161717:AAEQ8r3UUBA1JQCdG2K6UyTiyfgYrAIWGio"));
+    private final TelegramBot bot = new TelegramBot("5549161717:AAEQ8r3UUBA1JQCdG2K6UyTiyfgYrAIWGio");
     private final String PROCESSING_LABEL = "...";
     private final static List<String> opponentWins = new ArrayList<String>() {{
         add("01");
